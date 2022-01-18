@@ -1,6 +1,6 @@
 :root {
   --branding-color: #f4aa3a;
-  --secondary-color: #eeebe8;
+  --secondary-color: #f8f4f0;
   --accent-color: #cf6285;
 }
 
@@ -8,7 +8,18 @@
   padding: 150px 15px;
   text-align: center;
   background-color: var(--secondary-color);
+  box-shadow: rgba(207, 98, 133, 0.4) 0px 5px, rgba(207, 98, 133, 0.3) 0px 10px,
+    rgba(207, 98, 133, 0.2) 0px 15px, rgba(207, 98, 133, 0.1) 0px 20px,
+    rgba(207, 98, 133, 0.05) 0px 25px;
+    transition: all 800ms ease-in-out;
+  }
+  .hero:hover {
+    box-shadow: rgba(244,170,58, 0.4) 0px 5px, rgba(244,170,58, 0.3) 0px 10px,
+      rgba(244,170,58, 0.2) 0px 15px, rgba(244,170,58, 0.1) 0px 20px,
+      rgba(244,170,58, 0.05) 0px 25px;
+    
 }
+
 h1,
 h2,
 h3,
@@ -22,10 +33,10 @@ h6 {
 h1 {
   font-size: 80px;
   color: var(--accent-color);
-  transition: all 200ms ease-in-out;
+  transition: all 800ms ease-in-out;
 }
-h1:hover{
-    color: var(--branding-color);
+h1:hover {
+  color: var(--branding-color);
 }
 
 p {
@@ -41,9 +52,10 @@ p {
   color: white;
   padding: 15px 20px;
   border-radius: 4px;
-  transition: all 200ms ease-in-out;
+  transition: all 300ms ease-in-out;
 }
 
 .btn-branding:hover {
-    background-color: var(--branding-color);
+  color: white;
+  background-color: var(--branding-color);
 }
