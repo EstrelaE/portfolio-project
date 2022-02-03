@@ -15,6 +15,23 @@
   .hero p {
     font-size: 20px !important;
   }
+  .about-section.container {
+    margin: 10px auto !important;
+    padding: 10px 10px !important;
+    max-width: 100% !important;
+  }
+  .about-section h1 {
+    font-size: 38px !important;
+    line-height: 50px !important;
+  }
+  .about-photo {
+    margin: 0 auto !important;
+    display: block !important;
+    float: none !important;
+  }
+  .about-section p {
+    margin-bottom: 15px !important;
+  }
 }
 
 body {
@@ -91,7 +108,7 @@ p {
 .about-section.container {
   max-width: 80%;
   padding: 20px;
-  
+
   margin: 25px auto;
 }
 
