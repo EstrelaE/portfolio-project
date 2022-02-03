@@ -6,13 +6,16 @@
 }
 
 @media (max-width: 900px) {
-  .hero { padding: 100px 20px !important}
+  .hero {
+    padding: 100px 20px !important;
+  }
   h1 {
     font-size: 50px !important;
   }
-  .hero p { font-size: 20px !important;}
+  .hero p {
+    font-size: 20px !important;
+  }
 }
-
 
 body {
   font-family: var(--default-font-family);
@@ -85,6 +88,13 @@ p {
   max-width: 600px;
 }
 
+.about-section.container {
+  max-width: 80%;
+  padding: 20px;
+  
+  margin: 25px auto;
+}
+
 .project-description {
   padding: 10px 20px;
   background-color: var(--secondary-color);
@@ -114,4 +124,34 @@ p {
 .btn-branding-projects:hover {
   color: white;
   background-color: var(--accent-color);
+}
+
+.about-section {
+  padding: 160px 20px;
+}
+
+.about-section h1 {
+  font-size: 64px;
+  line-height: 80px;
+}
+
+.about-section h2 {
+  font-size: 18px;
+  font-family: var(--default-font-family);
+}
+
+.about-photo {
+  border-radius: 22px;
+  max-width: 80%;
+  float: right;
+  box-shadow: rgba(207, 98, 133, 0.4) 5px 5px, rgba(207, 98, 133, 0.3) 10px 10px;
+  transition: all 600ms ease-in-out;
+}
+
+.about-photo:hover {
+  box-shadow: rgba(244, 170, 58, 0.4) 5px 5px, rgba(244, 170, 58, 0.3) 10px 10px;
+}
+
+.about-section-content {
+  margin: 50px;
 }
