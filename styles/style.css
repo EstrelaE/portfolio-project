@@ -36,6 +36,21 @@ p {
 nav {
   box-shadow: rgba(207, 98, 133, 0.2) 0px 5px;
 }
+
+nav a:hover {
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+  color: var(--accent-color);
+}
+
+a:hover {
+  text-decoration: underline;
+  color: var(--accent-color);
+}
+
 .bg-light {
   background: white;
 }
@@ -68,7 +83,6 @@ nav {
   font-size: 40px;
 }
 
-
 .coded-with {
   padding: 10px;
 }
@@ -91,6 +105,7 @@ img.coded-icon {
 }
 
 .btn-branding:hover {
+  text-decoration: none;
   color: white;
   background-color: var(--branding-color);
 }
@@ -132,6 +147,7 @@ img.coded-icon {
 .btn-branding-projects:hover {
   color: white;
   background-color: var(--accent-color);
+  text-decoration: none;
 }
 
 .about-section h1 {
@@ -204,20 +220,16 @@ footer small {
   display: block;
 }
 
-footer .email-link {
-  text-decoration: none;
-  color: black;
-}
-footer .email-link:hover {
-  text-decoration: underline;
-  color: black;
+.fa-star {
+  font-size: 35px;
 }
 
 footer.contact-footer {
   margin: 0;
 }
 footer.contact-footer > small {
-  padding-top: 0px;
+  padding-top: 60px;
+  padding-bottom: 0;
 }
 
 @media (max-width: 900px) {
